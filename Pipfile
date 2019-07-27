@@ -10,6 +10,7 @@ ipykernel = "*"
 pandas = "*"
 matplotlib = "*"
 scikit-learn = "*"
+fuzzywuzzy = "*"
 
 [requires]
 python_version = "3.7"
