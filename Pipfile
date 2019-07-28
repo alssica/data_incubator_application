@@ -11,6 +11,8 @@ pandas = "*"
 matplotlib = "*"
 scikit-learn = "*"
 fuzzywuzzy = "*"
+python-leventhein = "*"
+python-levenshtein = "*"
 
 [requires]
 python_version = "3.7"
