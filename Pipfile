@@ -14,6 +14,7 @@ fuzzywuzzy = "*"
 python-leventhein = "*"
 python-levenshtein = "*"
 seaborn = "*"
+flask = "*"
 
 [requires]
 python_version = "3.7"
