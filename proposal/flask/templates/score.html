@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="topnav" id="navbar">
+        <div class="topnav-title">US Corporate Misconduct Tracker</div>
+        <!-- <a href="#about">About</a> -->
+        <a href="{{ url_for('score_page') }}" class="active">Score</a>
+        <a href="{{ url_for('industry_page') }}">Industry</a>
+        <a href="{{ url_for('index_page') }}">Home</a>
+        <a href="javascript:void(0);" class="icon"
+            onclick="navFunction('navbar')">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script src="./static/main.js" type='text/javascript'></script>
+</body>
+
+</html>
