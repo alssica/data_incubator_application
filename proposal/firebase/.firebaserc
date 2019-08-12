@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "corp-misconduct"
+  },
+  "targets": {
+    "corp-misconduct": {
+      "hosting": {
+        "home": [
+          "corp-misconduct"
+        ],
+        "industry": [
+          "corp-misconduct-industry"
+        ],
+        "score": [
+          "corp-misconduct-score"
+        ]
+      }
+    }
+  }
+}

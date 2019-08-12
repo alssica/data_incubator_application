@@ -14,7 +14,6 @@ fuzzywuzzy = "*"
 python-leventhein = "*"
 python-levenshtein = "*"
 seaborn = "*"
-pymongo = "*"
 flask = "*"
 
 [requires]
