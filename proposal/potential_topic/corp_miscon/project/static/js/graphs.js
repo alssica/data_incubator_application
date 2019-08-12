@@ -9,7 +9,7 @@ function makeGraphs(error, projectsJson, statesJson) {
 	var corpmisconProjects = projectsJson;
 	var dateFormat = d3.time.format("%Y%m%d");
 	corpmisconProjects.forEach(function (d) {
-		d["Penalty Date"] = d["Penalty Date"].toString();
+		// d["Penalty Date"] = d["Penalty Date"].toString();
 		d["Penalty Date"] = dateFormat.parse(d["Penalty Date"]);
 		d["Penalty Date"].setDate(1);
 		d["Penalty Amount"] = +d["Penalty Amount"];
