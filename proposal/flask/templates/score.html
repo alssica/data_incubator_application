@@ -9,11 +9,11 @@
 
 <body>
     <div class="topnav" id="navbar">
-        <a class="title">US Corporate Misconduct Tracker</a>
+        <div class="topnav-title">US Corporate Misconduct Tracker</div>
         <!-- <a href="#about">About</a> -->
-        <a href="{{ url_for('cool_form') }}">Score</a>
-        <a src="./industry.html">Industry</a>
-        <a href="#home" class="active">Home</a>
+        <a href="{{ url_for('score_page') }}" class="active">Score</a>
+        <a href="{{ url_for('industry_page') }}">Industry</a>
+        <a href="{{ url_for('index_page') }}">Home</a>
         <a href="javascript:void(0);" class="icon"
             onclick="navFunction('navbar')">
             <i class="fa fa-bars"></i>

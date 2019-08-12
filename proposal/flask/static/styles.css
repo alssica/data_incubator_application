@@ -8,7 +8,7 @@ body {
   background-color: rgb(37, 51, 68);
 }
 
-.topnav a.title{
+.topnav-title{
   float: left;
   display: block;
   color: #f2f2f2;
