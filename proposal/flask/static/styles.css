@@ -5,7 +5,8 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: rgb(37, 51, 68);
+  /* background-color: rgb(37, 51, 68); */
+  background-color: rgb(82, 92, 109);
 }
 
 .topnav-title{
