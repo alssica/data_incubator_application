@@ -1,16 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Dashboard</title>
+    <title>Industry</title>
+    <link rel="stylesheet" href="./static/styles.css">
 </head>
 
 <body>
-    <h1>This is the ssss industry page</h1>
-    <script type='text/javascript'
-        src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script>
-    <div class='tableauPlaceholder' style='width: 1920px; height: 883px;'>
-        <object class='tableauViz' width='1920' height='883'
+    <div class="topnav" id="navbar">
+        <div class="topnav-title">US Corporate Misconduct Tracker</div>
+        <!-- <a href="#about">About</a> -->
+        <a href="https://corp-misconduct-score.firebaseapp.com">Score</a>
+        <a href="https://corp-misconduct-industry.firebaseapp.com"
+            class="active">Industry</a>
+        <a href="https://corp-misconduct.firebaseapp.com">Home</a>
+        <a href="javascript:void(0);" class="icon"
+            onclick="navFunction('navbar')">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <!-- <iframe
+        src="https://public.tableau.com/shared/DCCP76C5M?:embed=yes&:tabs=no&:toolbar=no&:showShareOptions=false:display_count=yes&:showVizHome=no"
+        width="1000" height="800"></iframe> -->
+    <!-- <iframe
+        src="https://prod-useast-a.online.tableau.com/t/corporatemisconductdashboard/views/topviolatorbreakdown/TopViolatorBreakdown-Bubble?iframeSizedToWindow=true&:embed=y&:tabs=no&:toolbar=no&:showShareOptions=false&:showAppBanner=false&:display_count=no&:showVizHome=no&:origin=viz_share_link"
+        width="1000" height="800"></iframe> -->
+    <div class='tableauPlaceholder'
+        style='width: 1620px; height: 832px; margin-top:25px; margin-left: auto; margin-right: auto; display: block;'>
+        <object class='tableauViz' width='1620' height='832'
             style='display:none;'>
             <param name='host_url'
                 value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' />
@@ -18,12 +35,15 @@
             <param name='site_root'
                 value='&#47;t&#47;corporatemisconductdashboard' />
             <param name='name'
-                value='RECaseStudy_YuanGao_Workbook&#47;NetCapexUSFbycluster' />
+                value='topviolatorbreakdown&#47;TopViolatorBreakdown-Bubble' />
             <param name='tabs' value='no' />
-            <!-- <param name='toolbar' value='yes' /> -->
+            <param name='toolbar' value='no' />
             <param name='showAppBanner' value='false' />
             <param name='filter' value='iframeSizedToWindow=true' /></object>
     </div>
+    <script type='text/javascript'
+        src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script>
+    <script src="./static/main.js" type='text/javascript'></script>
 </body>
 
 </html>

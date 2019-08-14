@@ -1,26 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Score Page</title>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./static/styles.css">
 </head>
 
 <body>
-    <h1>Score</h1>
+    <div class="topnav" id="navbar">
+        <div class="topnav-title">US Corporate Misconduct Tracker</div>
+        <!-- <a href="#about">About</a> -->
+        <a href="https://corp-misconduct.firebaseapp-score.com"
+            class="active">Score</a>
+        <a
+            href="https://corp-misconduct-industry.firebaseapp.com">Industry</a>
+        <a href="https://corp-misconduct.firebaseapp.com">Home</a>
+        <a href="javascript:void(0);" class="icon"
+            onclick="navFunction('navbar')">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script src="./static/main.js" type='text/javascript'></script>
     <script type='text/javascript'
         src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script>
-    <div class='tableauPlaceholder' style='width: 1920px; height: 883px;'>
-        <object class='tableauViz' width='1920' height='883'
+    <div class='tableauPlaceholder'
+        style='width: 1620px; height: 832px; margin-top:25px; margin-left: auto; margin-right: auto; display: block;'>
+        <object class='tableauViz' width='1620px' height='832px'
             style='display:none;'>
             <param name='host_url'
                 value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' />
             <param name='embed_code_version' value='3' />
             <param name='site_root'
                 value='&#47;t&#47;corporatemisconductdashboard' />
-            <param name='name'
-                value='RECaseStudy_YuanGao_Workbook&#47;NetCapexUSFbycluster' />
+            <param name='name' value='topviolatorbreakdown&#47;Dashboard6' />
             <param name='tabs' value='no' />
-            <!-- <param name='toolbar' value='yes' /> -->
+            <param name='toolbar' value='no' />
             <param name='showAppBanner' value='false' />
             <param name='filter' value='iframeSizedToWindow=true' /></object>
     </div>
